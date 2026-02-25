@@ -10,7 +10,7 @@ MODEL_NAME = "Qwen/Qwen3-14B"
 INPUT_PATH = "/home/ubuntu/Working/neurips/train.parquet"
 OUTPUT_PATH = "/home/ubuntu/Working/neurips/train_with_output.parquet"
 MAX_TOKENS = 16384
-MAX_RETRIES = 3  # số lần retry nếu gen hết token mà chưa end
+MAX_RETRIES = 10  # số lần retry nếu gen hết token mà chưa end
 
 # ============================================================
 # LOAD
